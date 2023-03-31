@@ -25,7 +25,6 @@ public class Constants {
     public static final double kNEOPulsesPerRev = 42;
 
     
-    
 
 
     public static final class DriveConstants {
@@ -55,6 +54,15 @@ public class Constants {
 
         public static final double kSecUntilAutoCharge = 10;
         
+    }
+
+    public static final class VisionConstants{
+        //vision
+        public static final double kLimelightMountAngleDegrees = 0;
+        //29.75 in hieght
+        public static final double kLimelightLensHeightInches = 29.75;
+        public static final double kGoalHeightInches = 1; //not real number that we know
+        public static final double kGoalRangeMeters = 1; //also not real
     }
 
     public static final class ArmConstants{
